@@ -1,0 +1,128 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav .fixed {
+	margin-top: 5000px;
+	z-index: -1;
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+nav .justfixed {
+	position: fixed;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ffffff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+
+}
+.features-icon{
+	height: 165px;
+	width:165px;
+}
+.gray{
+	color:#708090 !important;
+}
+.steelblue{
+	color: #4682B4 !important;
+}
+.slategray{
+	color: #708090 !important;
+}
+.tan{
+	color: #a57940 !important;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.regteal{
+	color: #008b8b !important;
+	text-shadow: -1px -1px 0 #ffffff;
+				1px -1px 0 #ffffff;
+				-1px 1px 0 #ffffff;
+				1px 1px 0 #fffff;
+}
+.lightblue{
+	color: #87cefa !important;
+}
+.darkteal{
+	color: #008b8b !important;
+	font-size: 40px;
+	text-shadow: -1px -1px 0 #ffffff;
+				1px -1px 0 #ffffff;
+				-1px 1px 0 #ffffff;
+				1px 1px 0 #fffff;
+}
+.lightwhite{
+	color: #f0f8ff !important;
+	font-size: 50px;
+		text-shadow: -1px -1px 0 #008b8b;
+				1px -1px 0 #008b8b;
+				-1px 1px 0 #008b8b;
+				1px 1px 0 #008b8b;
+	
+}
+.offwhite{
+	color: #f0f8ff !important;
+}
+.gradient{
+	color: linear-gradient(to bottom left, #000066 0%, #6699ff 100%)
+}
+
+footer.page-footer {
+  margin: 0;
+}

@@ -1,0 +1,113 @@
+doctype html
+html(lang='en')
+	head
+		meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
+		title Fill the Map
+		// CSS
+		link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+		link(href='materialize/css/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+		link(href='materialize/css/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+	body
+		nav.white.navbar.default-navbar.fixed(role='navigation')
+			.nav-wrapper.container
+				a#logo-container.brand-logo(href='#') FillTheMap
+				ul.right.hide-on-med-and-down
+					li
+						a(href='/') Go To Map
+				ul#nav-mobile.side-nav
+					li
+						a(href='/') Go To Map
+				a.button-collapse(href='#', data-activates='nav-mobile')
+					i.material-icons menu
+		#index-banner.parallax-container
+			.section.no-pad-bot
+				.container
+					br
+					br
+					h1.header.center.regteal
+						| "Go into the world and do well. But more importantly, go into the world and do good."
+					.row.center
+						h5.header.col.s12.light.offwhite - Minor Myers Jr.
+					.row.center
+						a#download-button.btn-large.waves-effect.waves-.navy(href='/') Join the Map
+					br
+					br
+			.parallax
+				img(src='images/image1.jpg', alt='Unsplashed background img 1')
+		.container
+			.section
+				// Icon Section
+				.row
+					.col.s12.m4
+						.icon-block
+							h2.center.brown-text
+								i.material-icons.darkblue
+									img.features-icon.darkblue(src='images/icon1.png')
+							h5.center A Global Community
+							p.light
+								| Join individuals around the globe who are going into the world to do good. Become a part of a community of others who are helping to make the world a better place.
+					.col.s12.m4
+						.icon-block
+							h2.center.brown-text
+								i.material-icons.features-icon
+									img.features-icon.darkblue(src='images/icon2.png')
+							h5.center Plot your Points
+							p.light
+								| Show others what good deeds you have done by plotting the location of your charitable acts. Text an image of your good deed to add it to the map.
+					.col.s12.m4
+						.icon-block
+							h2.center.brown-text
+								i.material-icons.features-icon
+									img.features-icon.darkblue(src='images/icon4.png')
+							h5.center Help the World
+							p.light
+								| Take pride in your accomplishments as you help to fill the map with good deeds around the world.
+		.parallax-container.valign-wrapper
+			.section.no-pad-bot
+				.container
+					.row.center
+						h5.header.col.s12.bold.darkteal Fill the Map: Plot your points of humanitarianism.
+			.parallax
+				img(src='images/mapPic.jpg', alt='Unsplashed background img 2')
+		.container
+			.section
+				.row
+					.col.s12.center
+						h3
+							i.mdi-content-send.brown-text
+						h4.bold Plot Your Points
+						p.left-align.center  Do a Good Deed. Help the World.
+						p.left-align.center  Text a picture to 240-293-0520
+						p.left-align.center  See how you can Make a Difference.
+		.parallax-container.valign-wrapper
+			.section.no-pad-bot
+				.container
+					.row.center
+						h5.header.col.s12.lightwhite A Worldwide Community of Caring
+			.parallax
+				img(src='images/collage3.jpg', alt='Unsplashed background img 3')
+		footer.page-footer.teal
+			.container
+				.row
+					.col.l6.s12
+						h5.white-text Our Mission
+						p.grey-text.text-lighten-4 Join us.
+						p.grey-text.text-lighten-4
+							| Plot your points on the map to join a worldwide community of caring. View humanitarian accomplishments around the world.
+						p.grey-text.text-lighten-4 Fill the Map.
+						p.grey-text.text-lighten-4 Make a difference today.
+					.col.l3.s12
+					.col.l3.s12
+						h5.white-text Connect
+						ul
+							li
+								a.white-text(href='map.html') FillTheMap
+			.footer-copyright
+				.container
+					| Made by 
+					a.brown-text.text-lighten-3(href='http://materializecss.com') Ahuva-Elise-Goldie-Gabbi-Meira-Zehava
+		// Scripts
+		script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+		script(src='materialize/js/materialize.js')
+		script(src='materialize/js/init.js')

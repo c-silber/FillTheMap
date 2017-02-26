@@ -13,5 +13,19 @@
     "morgan": "~1.7.0",
     "pug": "~2.0.0-beta10",
     "serve-favicon": "~2.3.2"
+  },
+  "env": {
+  "TWILIO_ACCOUNT_SID": {
+    "description": "Your Twilio account secret ID, you can find at: https://www.twilio.com/user/account",
+    "value": "ACd8d354e0e3d5690deffaf8fde7f7c888"
+  },
+  "TWILIO_AUTH_TOKEN": {
+    "description": "Your secret Twilio Auth token, you can find at: https://www.twilio.com/user/account",
+    "value": "7d73da288eee2faea71aa0bef89337d3"
+  },
+  "TWILIO_NUMBER": {
+    "description": "The Twilio phone number you are using for this app. You can get one here: https://www.twilio.com/user/account/phone-numbers/incoming",
+    "value": "+12402930520"
   }
+}
 }

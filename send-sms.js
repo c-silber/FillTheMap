@@ -18,5 +18,5 @@ client.messages
     from: "+12402930520",
     body: "We have receieved your message! Thank you :)",
 }, function(err, message) {
-    console.log(err);
+    console.log(message.sid);
 });
